@@ -5,4 +5,3 @@ I've been coding for a year now. I don't have a proper CS background to start wi
 For now, my portfolio is not that diverse. I promise to create simple, yet useful applications for everyone to use.
 
 -----------------------
-Will promise to update in the future
