@@ -10,3 +10,7 @@ I. This project is a pytube based youtube ulitility downloader that runs on pyth
 
 4/14/2022
 - Created a windows executable file.
+
+5/16/2022
+- Minor string revisions
+- Removal of Distribution file. Fixing the discovered bug with pyinstaller
