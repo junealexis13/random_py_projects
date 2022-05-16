@@ -12,7 +12,7 @@ print('''
 --Download youtube videos at maximum resolution(mp4 format)
 --Extract mp3 from a youtube video
 ---------------------------------------------
-Script version: 0.0.2
+Script version: 0.1.0
 Created by: JAS
 ---------------------------------------------
 If BUGS were found or if you want to suggest new features,
@@ -23,9 +23,12 @@ DM me via email.
 remember to set the Save path Directory first
 before downloading. If not set, the path where
 the script was saved will become the default
-save location. You can type 'exit' to prompt
+save location.
+---------------------------------------------
+You can type 'exit' to prompt
 main menu return.
-********************************************
+---------------------------------------------
+*********************************************
 ''')
 
 
@@ -53,7 +56,7 @@ if __name__ == '__main__':
                     print(f"Download finished.\nTime elapsed {round(end-start,2)}s.\n")
                     prompt = input('What do you want to do? \n[0]: Specify save point directory.\n[1]: Download \n[2]: Extract mp3 file from video\n[3]: Exit\n[]-> : ')
                 else:
-                    prompt = input('SYSTEM PROMPT:\n***An error occured. Returning to main menu.*** \n[0]: Specify save point directory.\n[1]: Download \n[2]: Extract mp3 file from video\n[3]: Exit\n[]-> : ')
+                    prompt = input('SYSTEM PROMPT:\n***Returning to main menu.*** \n[0]: Specify save point directory.\n[1]: Download \n[2]: Extract mp3 file from video\n[3]: Exit\n[]-> : ')
             except KeyError:
                 print('An error has been encountered. The video you were trying to download may not be available. Try again with another video.')
 
